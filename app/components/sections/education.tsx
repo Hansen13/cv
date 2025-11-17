@@ -1,6 +1,6 @@
 export default function Education() {
     return (
-        <div>
+        <div className="h-[3000px]">
             <p>Uddannelse</p>
         </div>
     )
