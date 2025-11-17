@@ -1,6 +1,3 @@
-import Image from "next/image";
-import { calculateAge } from "./utils/helperMethods";
-import Link from "next/link";
 import WorkExperience from "./components/sections/workExperience";
 import Education from "./components/sections/education";
 import About from "./components/sections/about";
