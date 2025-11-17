@@ -9,7 +9,7 @@ export default function Home() {
       <div className="w-92 ">
        <Sidebar></Sidebar>
       </div>
-      <div className="flex  flex-col bg-white w-full text-black p-6">
+      <div className="flex flex-col bg-white w-full text-black p-6 gap-4">
         <WorkExperience></WorkExperience>
         <Education></Education>
         <About></About>
