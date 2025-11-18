@@ -2,14 +2,13 @@ import { calculateAge } from "@/app/utils/helperMethods";
 import Image from "next/image";
 
 export default function Sidebar() {
-    // const basepath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
     return (
         <div className="sticky top-0">
             <div className="bg-sky-900 ">
                 <div className="flex justify-center p-4">
                     <div className="w-56 h-56 relative">
-                        <Image src={`./young-bearded-man-with-striped-shirt.jpg`} alt="image not loading" fill className="object-cover rounded-full" />
+                        <Image src={"./young-bearded-man-with-striped-shirt.jpg"} alt="image not loading" fill className="object-cover rounded-full" />
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center ">
@@ -35,13 +34,13 @@ export default function Sidebar() {
             <div className="flex flex-row gap-1">
                 <span className="material-symbols-outlined">add_link</span>
                 <p className="text-sm flex items-center"></p>
-                <a  href="https://Andreashansen.info">AndreasHansen.info</a>
+                <a href="https://Andreashansen.info" className="text-sm flex items-center underline">AndreasHansen.info</a>
             </div>
             {/* Addresse */}
             <div className="flex flex-row gap-1">
                 <span className="material-symbols-outlined">location_on</span>
 
-                <p className="text-sm flex items-center">Storehaugen 41, Hetlevik, Norge</p>
+                <p className="text-sm flex items-center">Storehaugen, 5304 Hetlevik, Norge</p>
             </div>
             {/* Fødselsdato */}
             <div className="flex flex-row gap-1">

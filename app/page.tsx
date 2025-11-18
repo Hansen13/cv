@@ -5,7 +5,7 @@ import Sidebar from "./components/cv/sidebar";
 
 export default function Home() {
   return (
-    <div className="flex flex-row w-300 mx-auto ">
+    <div className="flex flex-row w-300 mx-auto drop-shadow-2xl">
       <div className="w-92 ">
        <Sidebar></Sidebar>
       </div>
