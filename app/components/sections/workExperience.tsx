@@ -6,14 +6,14 @@ export default function WorkExperience() {
   const unimicro = [
     "Udviklede og vedligeholdt kernefunktioner i løn- og salgssystemer, som dagligt understøtter over 100.000 daglige brugere,",
     "Frontendudvikling i Angular som en del af det daglige arbejde, med udvikling af nye features og bug fixing",
-    "Backendudvikling i C# med opsæt af API services, test mm.",
-    "Med af en trivselskomité, som planlagde fælles aktiviteter for hele organisationen",
+    "Backendudvikling i C# med opsætning af API services, test mm.",
+    "Medlem af en trivselskomité, som planlagde fælles aktiviteter for hele organisationen",
   ];
   const littleGiantsPraktik = [
     "Udviklede en komplet webapplikation i Flutter som solo-projekt",
     "Byggede en administrativ side til oprettelse og håndtering af nye projekter for en virksomhed",
     "Udviklede backend i Golang med gRPC til kommunikation",
-    "Ansvar for hele udviklingsprocessen: arkitektur, implementering",
+    "Ansvar for hele udviklingsprocessen - arkitektur, implementering",
   ];
 
   const littleGiants4semester = [
@@ -42,7 +42,7 @@ export default function WorkExperience() {
       />
 
       <WorkComponent
-        header="LittleGaints"
+        header="LittleGiants"
         subheader="5. semester - praktik"
         link="https://littlegiants.dk/"
         date="sep 2022 - okt 2022"
@@ -51,7 +51,7 @@ export default function WorkExperience() {
       />
 
       <WorkComponent
-        header="LittleGaints"
+        header="LittleGiants"
         subheader="4. semester"
         link="https://littlegiants.dk/"
         date="2022"
