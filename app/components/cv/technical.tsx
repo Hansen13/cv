@@ -1,4 +1,4 @@
-export default function TechnicalCompenteces() {
+export default function TechnicalCompetencies() {
   return (
     <div className="flex flex-col pt-4">
       <h1 className="text-xl font-bold">Tekniske kompetencer</h1>

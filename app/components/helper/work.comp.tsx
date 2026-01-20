@@ -34,8 +34,13 @@ export default function WorkComponent({
       <ul className="list-disc pl-8">
         {listItems.map((x) => (
           <div key={x}>
-            {x.endsWith(":") ? (
-              <p className="font-bold"> {x} </p>
+            {x.includes(":") ? (
+              <div>
+                <li className="pl-8">
+                  <span className="font-bold">{x.split(":")[0]}:</span>
+                  {x.split(":")[1]}
+                </li>
+              </div>
             ) : (
               <li className="pl-8"> {x} </li>
             )}

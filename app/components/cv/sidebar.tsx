@@ -1,6 +1,6 @@
 import { calculateAge } from "@/app/utils/helperMethods";
 import Image from "next/image";
-import TechnicalCompenteces from "./technical";
+import TechnicalCompetencies from "./technical";
 
 export default function Sidebar() {
   return (
@@ -61,7 +61,8 @@ export default function Sidebar() {
             30/07/97 - {calculateAge(new Date(1997, 0o7, 30))} år
           </p>
         </div>
-        <TechnicalCompenteces />
+        <TechnicalCompetencies />
+        {/* <PersonalCompetencies /> */}
       </div>
     </div>
   );
