@@ -25,7 +25,7 @@ export default function WorkExperience() {
 
   const CabinPlant = ["Blazor", "MSSQL"];
   const CycleServiceNordic = [
-    "Team leder fra 2019-2021",
+    "Teamleder fra 2019-2021",
     "Lager arbejder fra 2017-2019",
   ];
 

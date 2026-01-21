@@ -34,12 +34,12 @@ export default function Education() {
         listItems={brandmand}
       />
 
-      <WorkComponent
+      {/* <WorkComponent
         header="HTX"
         date="2015-2017"
         location="Odense Tekniske Gymnasium"
         listItems={htx}
-      />
+      /> */}
     </div>
   );
 }

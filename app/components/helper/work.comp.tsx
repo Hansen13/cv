@@ -14,7 +14,7 @@ export default function WorkComponent({
   listItems: string[];
 }) {
   return (
-    <div className="flex flex-col mr-10">
+    <div className="flex flex-col mr-10 print:break-inside-avoid">
       <div className="flex justify-between">
         <div className="flex gap-2">
           <h1
