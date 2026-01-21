@@ -64,7 +64,7 @@ export default function WorkExperience() {
         subheader="Studie job"
         link="https://www.cabinplant.com/"
         date="2021 - 2022"
-        location="Fyn, haarby"
+        location="Fyn, Haarby"
         listItems={CabinPlant}
       />
       <WorkComponent
